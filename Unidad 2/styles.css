@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: plum;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: right;
+}
+
+.parrafo-bonito {
+    text-align: center;
+    color: #b71bf5;
+    background-color: black;
+}
+
+#agrupacion {
+    background-color: black;
+    text-align: center;
+    color: aquamarine;
+}
