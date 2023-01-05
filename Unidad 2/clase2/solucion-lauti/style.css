@@ -1,0 +1,63 @@
+body {
+  background-color: blueviolet;
+  font-size: 1em;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+#banner {
+  width: 100vw;
+  height: 500px;
+  background-color: azure;
+}
+
+#banner img {
+  width: 100vw;
+  height: 300px;
+}
+
+#banner p {
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+section ul {
+  list-style: circle;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+footer ul {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#marca img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#marca p {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Helvetica;
+}
