@@ -1,10 +1,9 @@
 const express = require("express");
 const path = require("path");
-
 const VIEWS_PATH = path.join(__dirname, "views");
 const PORT = 3000;
-
 app = express();
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(VIEWS_PATH, "index.html"));
